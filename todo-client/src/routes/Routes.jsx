@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path:'/todos/:id',
+    path:'/todo/details/:id',
     element:<TaskDetails />
 
   }

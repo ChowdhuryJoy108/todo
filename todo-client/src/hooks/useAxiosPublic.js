@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const axiosPublic = axios.create({
-    baseURL:'http://localhost:3000'
+    baseURL:'https://todo-server-livid-two.vercel.app'
 })
 
 const useAxiosPublic = ()=>{

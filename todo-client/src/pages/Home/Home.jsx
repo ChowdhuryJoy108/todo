@@ -1,13 +1,15 @@
 import React from 'react';
 import TaskSection from '../../components/TaskSection/TaskSection';
+import { NavbarDark } from '../../components/Navbar/NavbarDark';
+import { Footer } from '../../components/Footer/Footer';
+
 
 const Home = () => {
   return (
-    <div className='mb-16'>
-      <div className='my-16'>
-        <h1 className='text-4xl font-bold text-center'>Task Manager</h1>
-      </div>
+    <div className='mx-2 mb-16'>
+      <NavbarDark />
       <TaskSection />
+      <Footer />
     </div>
   );
 };
